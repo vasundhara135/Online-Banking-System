@@ -19,7 +19,7 @@ public class DBUtil {
 		String url="jdbc:mysql://localhost:3306/onlinebankingsystem";
 		
 		try {
-			conn= DriverManager.getConnection(url,"root","abhi1234");
+			conn= DriverManager.getConnection(url,"root","YOUR_MYSQL_PASSWORD");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
